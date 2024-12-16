@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #303030;
+}
+
+h1 {
+    color: #C0C0C0;
+}
+
+p {
+    color: #C0C0C0;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 10px; */
+    /* Space between items */
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #202020;
+
+}
+
+.item {
+    flex: 1;
+    /* Makes all items grow equally */
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+    background-color: #384959;
+    border: 2px solid #909090;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+#i1 {
+    flex: 1;
+    align-self: center;
+}
+
+/* .item:nth-child(odd) {
+    background-color: #FFA07A;
+    /* Alternate background for even items */
+}
+
+*/
